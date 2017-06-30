@@ -39,8 +39,8 @@
     <div class="ui bottom attached green basic button" v-show="!todo.isEditing && todo.done">
       Completed
     </div>
-    <div class="ui bottom attached red basic button" v-show="!todo.isEditing && !todo.done">
-      Complete
+    <div class="ui bottom attached red basic button" v-on:click="completeTodo(todo)" v-show="!todo.isEditing && !todo.done">
+      Pending
     </div>
   </div>
 </template>
