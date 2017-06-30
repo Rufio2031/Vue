@@ -1,0 +1,1 @@
+F:\Web Development\VueProject\todo-app\obj\x86\Debug\VueToDo.csprojResolveAssemblyReference.cache
